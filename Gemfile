@@ -85,6 +85,7 @@ gem 'librato-rails'
 gem 'jwt', '~> 1.5.1'
 
 gem 'lograge'
+gem 'faraday', '~> 0.9.1'
 
 group :staging, :production do
   gem 'newrelic_rpm', '~> 3.9.1.236'
